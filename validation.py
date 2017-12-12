@@ -86,5 +86,3 @@ def task2():
             continue
         break
     print("Your average pace was " + str(round(inputs['distance'] / inputs['time'], inputs['decimals'])) + " minutes per mile")
-    
-task2()

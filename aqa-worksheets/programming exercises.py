@@ -135,5 +135,3 @@ def task4():
         finishMinutes -= 60
         finishHour += 1
     print("\nFinish time is: " + str(finishHour).zfill(2) + ":" + str(finishMinutes).zfill(2))
-    
-task4()
