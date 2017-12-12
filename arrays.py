@@ -20,7 +20,7 @@ def infinity():
         index += 1
 
 def end():
-    raise LukeException
+    raise StopIteration
 
 def task3():
     sentences = list(end() if input("Add one more string? ('y' to continue or other to stop) ").strip().lower() != "y" else input("") for x in infinity())
